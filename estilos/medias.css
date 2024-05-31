@@ -44,15 +44,23 @@ G - acima de 1200px
     }
 
     #login > #imagem {
-        float: left;
+        float: right;
         background-position: center top;
         width: 50%;
         height: 100%;
     }
 
     #login > #formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario {
+        font-size: 1.2em;
     }
 
 }
