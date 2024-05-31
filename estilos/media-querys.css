@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/*
+P - 600px
+Cel - 600px á 768px
+Tab - 768px á 992px
+Desk - 992px á 1200px
+G - acima de 1200px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #login {
+        width: 90vw;
+        background-color: aquamarine;
+    }
+}
