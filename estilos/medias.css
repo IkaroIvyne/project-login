@@ -16,7 +16,10 @@ G - acima de 1200px
     }
 
     #login {
-        width: 90vw;
+        width: 80vw;
+        height: 450px;
+        transition: width .3s height .3;
+        transition-timing-function: ease;
     }
 
     #login > #imagem {
@@ -30,10 +33,15 @@ G - acima de 1200px
         float: right;
         width: 70%;
     }
+
+    #formulario p {
+        text-indent: 5px;
+    }
 }
 
 /* DESKTOP & TG. */
 @media screen and (min-width: 992px) {
+
 
     body {
         background-image: linear-gradient(to top, #934C50, #CDFF95, #FED2EC);
@@ -41,6 +49,13 @@ G - acima de 1200px
 
     #login {
         width: 950px;
+        height: 450px;
+        transition: width .3s height .3;
+        transition-timing-function: ease;
+    }
+
+    #formulario p {
+        text-indent: 5px;
     }
 
     #login > #imagem {
